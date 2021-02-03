@@ -55,3 +55,14 @@ int main () {
   cout << value(0);
   return 0;
 }
+
+/*!
+
+\page opis Opis sposobu działania funkcji
+
+\section funkcja Wzór
+
+Wartość \f$ sin(x) \f$ jest wyliczona na podstawie pierwszych 10 wyrazów 
+szeregu \f$ sin(z)=\sum_{k=0}^{\infty}\frac{(-1)^kz^{2k+1}}{(2k+1)!} \f$
+
+*/
